@@ -1,0 +1,40 @@
+.mobile-nav-fixed {
+  position: fixed;
+  opacity: 70%;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: rgb(255 255 255 / 53%);
+  box-shadow: -2px 1px 20px 0 rgb(0 0 0 / 75%);
+}
+
+ul {
+  width: 100%;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline-start: 0;
+}
+
+.mobile-nav-fixed > ul {
+  align-items: center;
+}
+
+.burger-menu {
+  cursor: pointer;
+  padding: 0;
+  background-color: inherit;
+  border: none;
+  margin-left: 100%;
+}
+
+.burger-menu > img {
+  width: 30px;
+  height: 25px;
+}
+
+.navbar-title {
+  margin: 0;
+}
