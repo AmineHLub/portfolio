@@ -26,11 +26,11 @@ function Main() {
             hestiate to contact me.
           </p>
           <ul className="social-media-header d-flex">
-            <li><a href="https://twitter.com/Amino47612441"><img src={twitter} alt="twitter" /></a></li>
-            <li><a href="https://www.linkedin.com/in/mohamedamine-hajltaief/"><img src={linkedin} alt="linkedin" /></a></li>
-            <li><a href="https://medium.com/@aminobhl"><img src={medium} alt="medium" /></a></li>
-            <li><a href="https://github.com/AmineHLub"><img src={github} alt="github" /></a></li>
-            <li><a href="https://angel.co/u/mohamed-amine-hajltaief"><img src={angel} alt="angelist" /></a></li>
+            <li><a rel="noopener noreferrer" target="_blank" href="https://twitter.com/Amino47612441"><img src={twitter} alt="twitter" /></a></li>
+            <li><a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/mohamedamine-hajltaief/"><img src={linkedin} alt="linkedin" /></a></li>
+            <li><a rel="noopener noreferrer" target="_blank" href="https://medium.com/@aminobhl"><img src={medium} alt="medium" /></a></li>
+            <li><a rel="noopener noreferrer" target="_blank" href="https://github.com/AmineHLub"><img src={github} alt="github" /></a></li>
+            <li><a rel="noopener noreferrer" target="_blank" href="https://angel.co/u/mohamed-amine-hajltaief"><img src={angel} alt="angelist" /></a></li>
           </ul>
         </div>
       </section>
