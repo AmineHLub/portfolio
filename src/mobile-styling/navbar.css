@@ -1,12 +1,12 @@
 .mobile-nav-fixed {
   position: fixed;
-  opacity: 70%;
+  z-index: 99;
   top: 20px;
   left: 10px;
   right: 10px;
   border: 1px solid gray;
   border-radius: 20px;
-  background-color: rgb(255 255 255 / 53%);
+  background-color: rgb(255 255 255);
   box-shadow: -2px 1px 20px 0 rgb(0 0 0 / 75%);
 }
 
@@ -37,4 +37,15 @@ ul {
 
 .navbar-title {
   margin: 0;
+}
+
+.top-effect {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 82px;
+  z-index: 9;
+  filter: blur(30px);
+  background-color: #fff;
 }
