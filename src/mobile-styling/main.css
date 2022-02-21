@@ -3,17 +3,19 @@
   top: 85px;
   right: 0;
   left: 0;
+  height: 2500px;
 }
 
 .top-headers {
   width: 100%;
   text-align: center;
+  margin: 40px 0;
+  color: #3b1717;
 }
 
 .self-info {
   position: relative;
   width: 90%;
-  height: 30rem;
   margin: 30px 0 0 5%;
   padding-top: 75px;
 }
@@ -39,7 +41,7 @@
 
 .info-container {
   position: relative;
-  background-color: #456b7c;
+  background-color: #7c4545;
   box-shadow: 0 3px 20px 0 rgb(0 0 0);
   border-radius: 15px;
   width: 96%;
@@ -73,4 +75,13 @@
 
 .social-media-header > li > a > img {
   height: 18px;
+}
+
+.seperator {
+  height: 8px;
+  text-align: center;
+  margin: 70px auto 20px auto;
+  width: 50%;
+  border-radius: 20px;
+  background-color: #7c4545;
 }

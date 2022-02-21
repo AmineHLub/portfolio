@@ -34,6 +34,7 @@ function Main() {
           </ul>
         </div>
       </section>
+      <div className="seperator" />
     </main>
   );
 }
