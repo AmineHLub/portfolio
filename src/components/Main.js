@@ -1,5 +1,10 @@
 import '../mobile-styling/main.css';
 import myPic from '../assets/photo.png';
+import angel from '../assets/socials/angel.png';
+import github from '../assets/socials/github.png';
+import linkedin from '../assets/socials/linkedin.png';
+import medium from '../assets/socials/medium.png';
+import twitter from '../assets/socials/twitter.png';
 
 function Main() {
   return (
@@ -13,7 +18,21 @@ function Main() {
         <div className="img-container">
           <img src={myPic} alt="my-pfp" />
         </div>
-        <div className="info-container" />
+        <div className="info-container">
+          <p className="info-intro">
+            I can help you build a product , feature or website Look through
+            some of my work and experience!
+            If you like what you see and have a project you need coded, don&apos;t
+            hestiate to contact me.
+          </p>
+          <ul className="social-media-header d-flex">
+            <li><a href="/"><img src={twitter} alt="twitter" /></a></li>
+            <li><a href="/"><img src={linkedin} alt="linkedin" /></a></li>
+            <li><a href="/"><img src={medium} alt="medium" /></a></li>
+            <li><a href="/"><img src={github} alt="github" /></a></li>
+            <li><a href="/"><img src={angel} alt="angelist" /></a></li>
+          </ul>
+        </div>
       </section>
     </main>
   );
