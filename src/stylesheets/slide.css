@@ -1,0 +1,72 @@
+.slick-slider {
+  border: 2px dotted #7c4545;
+  border-radius: 7px;
+  margin: 20px 15%;
+}
+
+.slick-current > div > div,
+.slick-track > div > div > div {
+  padding: 10px 0;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.slick-track > div > div > div > img {
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.slick-track > div > div > div > h3 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 15px 0;
+  color: rgb(37, 37, 37);
+}
+
+.slick-track > div > div > div > button {
+  border: none;
+  cursor: pointer;
+  background-color: #7c4545;
+  padding: 7px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: #492121;
+}
+
+.slick-prev::after,
+.slick-next::after {
+  color: #7c4545;
+}
+
+/* detail page */
+
+.fixed-modal-container {
+  position: fixed;
+  z-index: 100;
+  bottom: 12.5%;
+  top: 12.5%;
+  right: 5%;
+  left: 5%;
+  background-color: red;
+  animation: popup 0.3s ease-in 0s 1 normal forwards;
+}
+
+.closed {
+  display: none;
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

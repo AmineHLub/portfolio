@@ -3,7 +3,6 @@
   top: 85px;
   right: 0;
   left: 0;
-  height: 2500px;
 }
 
 .top-headers {
@@ -80,7 +79,7 @@
 .seperator {
   height: 8px;
   text-align: center;
-  margin: 70px auto 20px auto;
+  margin: 70px auto;
   width: 50%;
   border-radius: 20px;
   background-color: #7c4545;
