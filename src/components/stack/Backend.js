@@ -8,7 +8,7 @@ import postgres from '../../assets/stack/postgres.png';
 export default function Backend({ stackStateBack }) {
   return (
     <div className={`backend-fixed ${stackStateBack}`}>
-      <h2 className="stack-header">Backend stack</h2>
+      <h2 className="stack-header">Backend</h2>
       <div className="stack-container-front d-flex">
         <img src={ruby} alt="ruby-logo" />
         <img src={rails} alt="rails-logo" />

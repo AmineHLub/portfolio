@@ -8,7 +8,7 @@ import js from '../../assets/stack/js.png';
 export default function Frontend({ stackStateFront }) {
   return (
     <div className={`frontend-fixed ${stackStateFront}`}>
-      <h2 className="stack-header">Frontend stack</h2>
+      <h2 className="stack-header">Frontend</h2>
       <div className="stack-container-front d-flex">
         <img src={html} alt="html-logo" />
         <img src={css} alt="css-logo" />
