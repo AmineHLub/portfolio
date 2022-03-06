@@ -1,5 +1,6 @@
 .main-mobile {
   position: absolute;
+  overflow-x: hidden;
   top: 85px;
   right: 0;
   left: 0;
