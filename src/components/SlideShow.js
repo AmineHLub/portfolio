@@ -1,12 +1,24 @@
+/* eslint-disable no-return-assign */
 /* eslint-disable react/jsx-props-no-spreading */
 import Slider from 'react-slick';
+import { useState } from 'react';
 import Projects from './Projects';
 import ProjectDetail from './ProjectDetail';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import '../stylesheets/slide.css';
+import { applyBlur, restorBlur } from './Blurring';
 
 function SlideShow() {
+  const [modal, setModal] = useState('closed');
+  const [selectedProject, setSelectedProject] = useState();
+  const handleModal = (modalState, card) => {
+    setModal(modalState);
+    setSelectedProject(card);
+    if (modalState === 'open') {
+      applyBlur();
+    } else restorBlur();
+  };
   const settings = {
     dots: true,
     infinite: true,
@@ -22,11 +34,11 @@ function SlideShow() {
           <div key="1">
             <h3>{card.title}</h3>
             <img src={card.image} alt="img" />
-            <button type="button">View</button>
+            <button type="button" onClick={() => handleModal('open', card)}>View</button>
           </div>
         ))}
       </Slider>
-      <ProjectDetail />
+      <ProjectDetail modal={modal} selectedProject={selectedProject} handleModal={handleModal} />
     </>
   );
 }

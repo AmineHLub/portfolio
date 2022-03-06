@@ -43,30 +43,3 @@
 .slick-next::after {
   color: #7c4545;
 }
-
-/* detail page */
-
-.fixed-modal-container {
-  position: fixed;
-  z-index: 100;
-  bottom: 12.5%;
-  top: 12.5%;
-  right: 5%;
-  left: 5%;
-  background-color: red;
-  animation: popup 0.3s ease-in 0s 1 normal forwards;
-}
-
-.closed {
-  display: none;
-}
-
-@keyframes popup {
-  0% {
-    transform: scale(0);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
