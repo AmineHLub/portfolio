@@ -1,18 +1,18 @@
-.slack-container {
+.stack-container {
   position: relative;
 }
 
-.my-slack-header {
+.my-stack-header {
   text-align: center;
   margin-top: 50px;
 }
 
-.my-slack-container {
-  padding: 50px 0;
+.my-stack-container {
+  padding: 30px 0;
   justify-content: space-between;
 }
 
-.my-slack-container > button {
+.my-stack-container > button {
   width: 50%;
   height: 70px;
   color: white;
@@ -20,12 +20,12 @@
   border-radius: 0;
 }
 
-.my-slack-container > button:nth-child(1) {
-  background-color: #7c4545;
+.my-stack-container > button:nth-child(1) {
+  background-color: #161e34;
 }
 
-.my-slack-container > button:nth-child(2) {
-  background-color: #161e34;
+.my-stack-container > button:nth-child(2) {
+  background-color: #7c4545;
 }
 
 .backend-fixed,
@@ -39,25 +39,24 @@
 
 .frontend-fixed {
   left: -100%;
-  background-color: #7c4545;
+  background-color: #161e34;
 }
 
 .backend-fixed {
   right: -100%;
-  background-color: #161e34;
+  background-color: #7c4545;
 }
 
 .close-btn {
   position: absolute;
   border: none;
   background-color: inherit;
-  width: 30px;
-  height: 30px;
-  top: 0;
+  top: 10px;
   right: 5%;
   z-index: 101;
 }
 
+.close-btn,
 .close-btn > img {
   width: 30px;
   height: 30px;
@@ -71,4 +70,22 @@
 .close-nav {
   transform: translate(-100%);
   transition: 0.45s;
+}
+
+.stack-header {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 20px 10px;
+  margin: 20px 25%;
+  border: 2px dotted white;
+  border-radius: 10px;
+}
+
+.stack-container-front {
+  justify-content: space-evenly;
+}
+
+.stack-container-front > img {
+  width: 50px;
 }
