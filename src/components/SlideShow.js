@@ -1,4 +1,3 @@
-/* eslint-disable no-return-assign */
 /* eslint-disable react/jsx-props-no-spreading */
 import Slider from 'react-slick';
 import { useState } from 'react';
