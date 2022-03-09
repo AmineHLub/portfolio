@@ -18,7 +18,7 @@
   height: 70px;
   color: white;
   border: none;
-  border-radius: 0;
+  font-size: 1.7rem;
 }
 
 .my-stack-container > button:nth-child(1) {
@@ -78,7 +78,7 @@
   color: white;
   font-weight: bold;
   padding: 20px 10px;
-  margin: 20px 25%;
+  margin: 40px 25%;
   border: 2px dotted white;
   border-radius: 10px;
 }
