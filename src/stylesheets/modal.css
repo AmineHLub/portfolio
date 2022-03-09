@@ -23,6 +23,9 @@
 
 .modal-info-container > img {
   width: 50%;
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .fixed-modal-container > button > img {
@@ -47,6 +50,7 @@
 
 .tech-container {
   width: 100%;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -58,7 +62,7 @@
 }
 
 .tech-container > p {
-  margin: 0;
+  margin: 10px 0;
   padding: 5px 8px;
   color: white;
   border: 1px solid white;
@@ -72,7 +76,7 @@
 
 .project-links > a {
   text-decoration: none;
-  color: #2c7758;
+  color: #1b2e50;
   padding: 5px 10px;
   font-size: 0.8rem;
   font-weight: bolder;
