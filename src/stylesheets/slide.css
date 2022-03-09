@@ -1,0 +1,52 @@
+.recent-projects-header {
+  text-align: center;
+  margin-bottom: 60px;
+  color: #161e34;
+}
+
+.slick-slider {
+  border: 2px dotted #1b2e50;
+  border-radius: 7px;
+  margin: 20px 15%;
+}
+
+.slick-current > div > div,
+.slick-track > div > div > div {
+  padding: 10px 0;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+}
+
+.slick-track > div > div > div > img {
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.slick-track > div > div > div > h3 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 15px 0;
+  color: rgb(37, 37, 37);
+}
+
+.slick-track > div > div > div > button {
+  border: none;
+  cursor: pointer;
+  background-color: #1b2e50;
+  padding: 7px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: #161e34;
+}
+
+.slick-prev::after,
+.slick-next::after {
+  color: #1b2e50;
+}
