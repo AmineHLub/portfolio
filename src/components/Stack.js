@@ -30,6 +30,7 @@ function Stack() {
           <img src={close} alt="close-modal-icon" />
         </button>
         ) : null}
+      <div className="seperator" />
     </section>
   );
 }

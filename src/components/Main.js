@@ -3,6 +3,7 @@ import Info from './Info';
 import SlideShow from './SlideShow';
 import Stack from './Stack';
 import About from './About';
+import Contact from './Contact';
 
 function Main() {
   return (
@@ -11,6 +12,7 @@ function Main() {
       <SlideShow />
       <Stack />
       <About />
+      <Contact />
     </main>
   );
 }

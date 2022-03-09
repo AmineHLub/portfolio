@@ -28,6 +28,7 @@ function SlideShow() {
 
   return (
     <>
+      <h2 className="recent-projects-header">My recent Projects</h2>
       <Slider {...settings}>
         {Projects.map((card) => (
           <div key="1">
@@ -38,6 +39,7 @@ function SlideShow() {
         ))}
       </Slider>
       <ProjectDetail modal={modal} selectedProject={selectedProject} handleModal={handleModal} />
+      <div className="seperator" />
     </>
   );
 }
