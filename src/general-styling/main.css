@@ -7,6 +7,7 @@
   background-image: url('../assets/bg/header-illu-mobile.png');
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position-y: 0;
 }
 
 .top-headers {
@@ -89,12 +90,18 @@
   background-color: #1b2e50;
 }
 
+@media (min-width: 550px) {
+  .main-mobile {
+    background-size: 0;
+  }
+}
+
 @media (min-width: 885px) {
   .main-mobile {
-    background-image: url('../assets/photo.png');
+    background-image: url('../assets/photo_nobg.png');
     background-repeat: no-repeat;
-    background-size: 450px 450px;
-    background-position: 100% 0;
+    background-size: 500px 500px;
+    background-position: 109% 0;
   }
 
   .top-headers,
