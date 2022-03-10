@@ -88,3 +88,27 @@
   border-radius: 20px;
   background-color: #1b2e50;
 }
+
+@media (min-width: 885px) {
+  .main-mobile {
+    background-image: url('../assets/photo.png');
+    background-repeat: no-repeat;
+    background-size: 450px 450px;
+    background-position: 100% 0;
+  }
+
+  .top-headers,
+  .self-info {
+    width: 40%;
+    margin: 40px 0 40px 7%;
+  }
+
+  .self-info {
+    padding-top: 0;
+    margin-bottom: 170px;
+  }
+
+  .img-container {
+    display: none;
+  }
+}
