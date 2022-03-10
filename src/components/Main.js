@@ -1,4 +1,4 @@
-import '../mobile-styling/main.css';
+import '../general-styling/main.css';
 import Info from './Info';
 import SlideShow from './SlideShow';
 import Stack from './Stack';

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../mobile-styling/my-stack.css';
+import '../general-styling/my-stack.css';
 import Backend from './stack/Backend';
 import Frontend from './stack/Frontend';
 import close from '../assets/close.png';

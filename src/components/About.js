@@ -1,5 +1,5 @@
 import React from 'react';
-import '../mobile-styling/about.css';
+import '../general-styling/about.css';
 
 export default function About() {
   return (
