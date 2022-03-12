@@ -1,4 +1,4 @@
-import '../mobile-styling/navbar.css';
+import '../general-styling/navbar.css';
 import burgerMenu from '../assets/burger-menu.png';
 
 function MobileNavbar() {

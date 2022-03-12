@@ -1,11 +1,11 @@
 import './App.css';
-import MobileNavbar from './components/MobileNavbar';
+import Navbar from './components/Navbar';
 import Main from './components/Main';
 
 function App() {
   return (
     <>
-      <MobileNavbar />
+      <Navbar />
       <Main />
     </>
   );

@@ -50,3 +50,13 @@
 .slick-next::after {
   color: #1b2e50;
 }
+
+@media (min-width: 885px) {
+  .slick-current > div > div,
+  .slick-track > div > div > div {
+    justify-content: space-evenly;
+    height: 250px;
+    border-right: 1px solid rgb(158, 158, 158);
+    border-left: 1px solid rgb(158, 158, 158);
+  }
+}

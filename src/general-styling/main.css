@@ -1,12 +1,9 @@
 .main-mobile {
   position: absolute;
   overflow-x: hidden;
-  top: 85px;
+  top: 65px;
   right: 0;
   left: 0;
-  background-image: url('../assets/bg/header-illu-mobile.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .top-headers {
@@ -87,4 +84,34 @@
   width: 50%;
   border-radius: 20px;
   background-color: #1b2e50;
+}
+
+@media (min-width: 550px) {
+  .main-mobile {
+    background-size: 0;
+  }
+}
+
+@media (min-width: 885px) {
+  .main-mobile {
+    background-image: url('../assets/photo_nobg.png');
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    background-position: 109% 0;
+  }
+
+  .top-headers,
+  .self-info {
+    width: 40%;
+    margin: 40px 0 40px 7%;
+  }
+
+  .self-info {
+    padding-top: 0;
+    margin-bottom: 170px;
+  }
+
+  .img-container {
+    display: none;
+  }
 }

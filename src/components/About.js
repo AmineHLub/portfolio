@@ -1,9 +1,9 @@
 import React from 'react';
-import '../mobile-styling/about.css';
+import '../general-styling/about.css';
 
 export default function About() {
   return (
-    <section className="about-me-container d-flex">
+    <section id="about" className="about-me-container d-flex">
       <h2>About</h2>
       <div className="info-and-resume">
         <p>

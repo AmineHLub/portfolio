@@ -19,6 +19,7 @@
   color: white;
   border: none;
   font-size: 1.7rem;
+  cursor: pointer;
 }
 
 .my-stack-container > button:nth-child(1) {
@@ -55,6 +56,7 @@
   top: 10px;
   right: 5%;
   z-index: 101;
+  cursor: pointer;
 }
 
 .close-btn,
@@ -89,4 +91,10 @@
 
 .stack-container-front > img {
   width: 50px;
+}
+
+@media (min-width: 885px) {
+  .my-stack-container > button {
+    height: 100px;
+  }
 }

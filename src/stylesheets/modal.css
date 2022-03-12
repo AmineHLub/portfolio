@@ -111,3 +111,10 @@
     transform: scale(1);
   }
 }
+
+@media (min-width: 885px) {
+  .fixed-modal-container {
+    right: 30%;
+    left: 30%;
+  }
+}

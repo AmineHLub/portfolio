@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../mobile-styling/my-stack.css';
+import '../general-styling/my-stack.css';
 import Backend from './stack/Backend';
 import Frontend from './stack/Frontend';
 import close from '../assets/close.png';
@@ -16,7 +16,7 @@ function Stack() {
     }
   };
   return (
-    <section className="stack-container">
+    <section id="stack" className="stack-container">
       <h2 className="my-stack-header">My stack</h2>
       <div className="my-stack-container d-flex">
         <button type="button" onClick={() => setStackStateF('show-nav closable')}>Frontend</button>
