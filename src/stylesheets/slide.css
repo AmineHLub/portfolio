@@ -32,7 +32,7 @@
   color: rgb(37, 37, 37);
 }
 
-.slick-track > div > div > div > button {
+.view-prjct-btn {
   border: none;
   cursor: pointer;
   background-color: #1b2e50;
@@ -55,7 +55,7 @@
   .slick-current > div > div,
   .slick-track > div > div > div {
     justify-content: space-evenly;
-    height: 250px;
+    height: 180px;
     border-right: 1px solid rgb(158, 158, 158);
     border-left: 1px solid rgb(158, 158, 158);
   }

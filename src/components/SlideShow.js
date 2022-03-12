@@ -66,7 +66,7 @@ function SlideShow() {
           <div key="1">
             <h3>{card.title}</h3>
             <img src={card.image} alt="img" />
-            <button type="button" onClick={() => handleModal('open', card)}>View</button>
+            <button className="view-prjct-btn" type="button" onClick={() => handleModal('open', card)}>View</button>
           </div>
         ))}
       </Slider>
