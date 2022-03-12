@@ -60,6 +60,10 @@
   color: white;
 }
 
+.temp-contact-header {
+  display: none;
+}
+
 .form-container > .input {
   margin: 5px 0;
   width: 80%;
@@ -111,6 +115,38 @@
 @media (min-width: 850px) {
   .info-and-resume {
     width: 450px;
+  }
+
+  .contact-container > h2 {
+    display: none;
+  }
+
+  .contact-layout-container {
+    display: flex;
+    padding: 30px 5%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-container > .input {
+    margin: 5px 5% 5px 0;
+    width: 100%;
+    padding: 5px 10px;
+  }
+
+  .temp-contact-header {
+    display: block;
+    color: white;
+  }
+
+  .contact-layout-container > div {
+    width: 25%;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .contact-layout-container > form {
+    width: 55%;
   }
 
   .contact-container,
