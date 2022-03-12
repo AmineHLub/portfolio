@@ -1,13 +1,9 @@
 .main-mobile {
   position: absolute;
   overflow-x: hidden;
-  top: 85px;
+  top: 65px;
   right: 0;
   left: 0;
-  background-image: url('../assets/bg/header-illu-mobile.png');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-y: 0;
 }
 
 .top-headers {

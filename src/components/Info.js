@@ -8,7 +8,7 @@ import twitter from '../assets/socials/twitter.png';
 function Info() {
   return (
     <>
-      <section id="information" className="top-headers">
+      <section id="home" className="top-headers">
         <h1>Mohamed Amine Hajltaief</h1>
         <span>FULL STACK WEB DEVELOPPER</span>
       </section>
