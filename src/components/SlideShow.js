@@ -60,7 +60,7 @@ function SlideShow() {
 
   return (
     <>
-      <h2 className="recent-projects-header">My recent projects</h2>
+      <h2 id="projects" className="recent-projects-header">My recent projects</h2>
       <Slider {...settings}>
         {Projects.map((card) => (
           <div key="1">
