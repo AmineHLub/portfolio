@@ -1,4 +1,5 @@
-.mobile-nav-fixed {
+.mobile-nav-fixed,
+.desktop-navigation {
   position: fixed;
   z-index: 99;
   top: 20px;
@@ -10,15 +11,14 @@
 }
 
 ul {
-  width: 100%;
   list-style-type: none;
   align-items: center;
-  justify-content: space-between;
   padding-inline-start: 0;
 }
 
 .mobile-nav-fixed > ul {
-  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .burger-menu {
@@ -47,4 +47,30 @@ ul {
   z-index: 9;
   filter: blur(30px);
   background-color: #fff;
+}
+
+@media (min-width: 885px) {
+  .desktop-navigation {
+    top: 0;
+    border-radius: 0;
+    left: 0;
+    right: 0;
+    background: #1b2e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktop-navigation > h2 {
+    margin-left: 3%;
+  }
+
+  .desk-nav-list {
+    margin-right: 5%;
+    justify-content: flex-end;
+  }
+
+  .desk-nav-list > li {
+    margin: 0 20px;
+  }
 }
