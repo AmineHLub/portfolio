@@ -18,6 +18,7 @@ function Stack() {
   return (
     <section id="stack" className="stack-container">
       <h2 className="my-stack-header">My stack</h2>
+      <p className="expand-note">Tap on any to expand</p>
       <div className="my-stack-container d-flex">
         <button type="button" onClick={() => setStackStateF('show-nav closable')}>Frontend</button>
         <button type="button" onClick={() => setStackStateB('close-nav closable')}>Backend</button>

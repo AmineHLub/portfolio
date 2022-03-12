@@ -13,6 +13,13 @@
   justify-content: space-between;
 }
 
+.expand-note {
+  text-align: center;
+  margin-bottom: 0;
+  color: #161e34;
+  font-weight: bold;
+}
+
 .my-stack-container > button {
   width: 50%;
   height: 70px;
@@ -96,5 +103,21 @@
 @media (min-width: 885px) {
   .my-stack-container > button {
     height: 100px;
+    background-repeat: no-repeat;
+    background-size: 35px;
+  }
+
+  .expand-note {
+    display: none;
+  }
+
+  .my-stack-container > button:nth-child(1) {
+    background-image: url('../assets/right-arr.png');
+    background-position: 5% 50%;
+  }
+
+  .my-stack-container > button:nth-child(2) {
+    background-image: url('../assets/left-arr.png');
+    background-position: 95% 50%;
   }
 }
