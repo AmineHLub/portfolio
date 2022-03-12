@@ -5,7 +5,7 @@ export default function hey() {
     <nav className="desktop-navigation">
       <h2>My portfolio</h2>
       <ul className="desk-nav-list d-flex">
-        <li>Home</li>
+        <li><a href="/#about">Home</a></li>
         <li>Projects</li>
         <li>About</li>
         <li>Contact</li>

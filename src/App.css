@@ -4,6 +4,10 @@
   display: flex;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #e5e5e5;
   margin: 0;
