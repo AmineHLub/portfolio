@@ -2,6 +2,14 @@
 
 This is my own portfolio but if you like it, you can simply yoink the code, change necessary data and text and have it for you. It's open for everyone :)
 
+- No CSS framework
+
+- Libs used (beside my-react-app's) : 
+
+    "react-scrollspy": "^3.4.3",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+
 ## Built With
 
 - HTML, CSS, JavaScript, Reactjs
