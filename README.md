@@ -10,7 +10,13 @@ This is my own portfolio but if you like it, you can simply yoink the code, chan
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",
 
+
+## Preview
+
+![screenshot](./preview.png)
+
 ## Built With
+
 
 - HTML, CSS, JavaScript, Reactjs
 
