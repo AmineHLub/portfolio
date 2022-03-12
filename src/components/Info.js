@@ -19,10 +19,9 @@ function Info() {
         </div>
         <div className="info-container">
           <p className="info-intro">
-            I can help you build a product , feature or website Look through
-            some of my work and experience!
-            If you like what you see and have a project you need coded, don&apos;t
-            hestiate to contact me.
+            Hey, You can call me Moe. I&apos;m from Tunisia and I&apos;m a
+            full stack web developper. I&apos;m also a tech enthusiast with
+            good knowledge about low level computer functionalities.
           </p>
           <ul className="social-media-header d-flex">
             <li><a rel="noopener noreferrer" target="_blank" href="https://twitter.com/Amino47612441"><img src={twitter} alt="twitter" /></a></li>

@@ -44,7 +44,7 @@
   flex-direction: column;
   align-items: center;
   background: #1b2e50;
-  border-radius: 30% 0 30% 0;
+  border-radius: 50px 50px 0 0;
 }
 
 .contact-header {

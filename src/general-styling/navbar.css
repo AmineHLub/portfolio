@@ -6,6 +6,7 @@ ul {
 }
 
 .desktop-navigation {
+  font-family: 'Ubuntu', sans-serif;
   position: fixed;
   z-index: 99;
   top: 0;
