@@ -32,7 +32,7 @@ function Info() {
           </ul>
         </div>
       </section>
-      <div className="seperator" />
+      <div id="projects" className="seperator" />
     </>
   );
 }

@@ -3,7 +3,7 @@ import '../general-styling/about.css';
 
 export default function About() {
   return (
-    <section id="about" className="about-me-container d-flex">
+    <section className="about-me-container d-flex">
       <h2>About</h2>
       <div className="info-and-resume">
         <p>
