@@ -1,5 +1,13 @@
 const Projects = [
   {
+    image: 'https://raw.githubusercontent.com/AmineHLub/Windows10-clone-edu/main/scrn.png',
+    title: 'Win 10 Clone',
+    tech: ['CSS', 'JavaScript', 'HTML', 'ReactJS'],
+    description: 'This is small immitation of Microsoft\'s famous windows 10 on the browser. ',
+    link: 'https://clone-win10-edu-purpose-only.netlify.app/',
+    source: 'https://github.com/AmineHLub/Windows10-clone-edu',
+  },
+  {
     image: 'https://raw.githubusercontent.com/AmineHLub/project-images/main/recipeNation.png',
     title: 'RecipeNation',
     tech: ['CSS', 'JavaScript', 'HTML'],
